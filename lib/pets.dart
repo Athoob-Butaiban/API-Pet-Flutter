@@ -3,7 +3,7 @@ import 'dart:convert';
 
 // class to make the field for the API
 class Pet {
-  int id;
+  int id; // id can't be null
   String name;
   bool adopted;
   String image;
